@@ -1,0 +1,24 @@
+body{
+    background-color: azure;
+    font-family: cursive;
+}
+h2{
+    color: rgb(105, 105, 105);
+}
+img{
+    border-radius: 25px;
+}
+table, tr, td, form{
+    background-color: beige;
+    border: white;
+    border-radius: 15px; 
+}
+.hob1{
+    background-color: rgb(197, 37, 37);
+    color: white;
+}
+.hob2{
+    background-color: rgb(1, 14, 88);
+    color: white;
+}
+
