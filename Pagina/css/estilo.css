@@ -1,3 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div#general{
+    margin: auto;
+    width: 1920px;
+    height: 720px;
+
+}
 body{
     background-color: whitesmoke;
     font-family: cursive;
@@ -5,11 +15,23 @@ body{
 h2{
     color: rgb(105, 105, 105);
 }
-.perfil{
-    position: relative;
-    width: 25%;
+h3{
+    margin-left: 10px;
 }
+
+/*imagen */
+
+div#imagen{
+    float: left;
+    width: 150px;
+}
+
 /*Segunda Linea nombre y presentacion*/
+
+div#perfil{
+    background-color: rgba(219, 219, 219, 0.959);
+    height: 120px;
+}
 .nombre{
     color: steelblue;
     margin-left: 500px;
@@ -23,20 +45,68 @@ h2{
     font-size: 30px;
 }
 
-table, tr, td, form{
+/*tabla*/
+
+table{
     background-color: rgba(228, 228, 228, 0.945);
+    border-radius: 5px; 
+    border-color: rgb(177, 177, 177);
+}
+td{
     border: white;
-    border-radius: 15px; 
+}
+div#body {
+    float: right;
+    margin-top: 60px;
+    margin-right: 35px;
+    width: 1200px;
+    height: 600px;
 }
 .hob1{
-    background-color: rgb(197, 37, 37);
-    color: white;
+    background-color: rgb(247, 247, 247);
+    color: rgba(102, 102, 102, 0.555);
     width: 450px;
+    text-align: justify;
+    font-size: 35px;
 }
 .hob2{
-    position: relative;
-    background-color: rgb(1, 14, 88);
-    color: white;
-    width: 600px;
+    
+    background-color: rgba(255, 255, 228, 0.705);
+    color: rgb(95, 95, 95);
+    width: 700px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*Parrafos*/
+.p{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.p1{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.p2{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*tah "a"*/
 
+/*Boton*/
+button{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 220px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
