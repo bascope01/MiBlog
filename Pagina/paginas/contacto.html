@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contacto</title>
+    <style type="text/css">
+    body{
+        background-image: url(http://keystonerealestate.ca/wp-content/uploads/2013/03/background-greywhite.jpg);
+        margin: 0;
+
+    }
+    form{
+        width: 470px;
+        margin: auto;
+        padding: 10px 30px;
+        margin-top: 15px;
+        border-radius: 5px;
+        background: rgba(77, 77, 77, 0.171);
+    }
+    input, select, textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 8px;
+
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="nombre">Tu nombre</label>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <label for="correo">Correo</label>
+        <input type="text" name="correo" placeholder="Correo">
+        <label for="asunto">Asunto</label>
+        <select>
+            <option>Programacion web</option>
+            <option>Edicion de video</option>
+            <option>Edicion de fotos</option>
+        </select><br>
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" placeholder="Escriba su mensaje"></textarea>
+        <input type="button" value="Enviar" id="boton">
+        <input type="button" value="Cancelar" id="boton">
+    </form>
+    
+</body>
+</html>
